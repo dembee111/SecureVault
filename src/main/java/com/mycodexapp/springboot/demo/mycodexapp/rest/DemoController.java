@@ -15,7 +15,9 @@ public class DemoController {
 //        myCoach = theCoach;
 //    }
     @Autowired
-    public DemoController(Coach theCoach){
+    public DemoController(@Qualifier("cricketCoach") Coach theCoach){
+
+        System.out.println("In Constructor: "+ getClass().getSimpleName());
         myCoach = theCoach;
     }
     /* setter injection shuu */

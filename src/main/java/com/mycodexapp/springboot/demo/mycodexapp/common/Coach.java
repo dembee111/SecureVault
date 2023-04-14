@@ -1,4 +1,4 @@
-package com.mycodexapp.springboot.demo.mycodexapp;
+package com.mycodexapp.springboot.demo.mycodexapp.common;
 
 public interface Coach {
 
